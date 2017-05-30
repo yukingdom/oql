@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127374CAB8D63E28E8B3C172 /* Pods_oqlApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156654B5194FD3B204FCCA67 /* Pods_oqlApp.framework */; };
+		D6173E5A1D41B9A5000E1B89 /* oqlTabBarCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6173E591D41B9A5000E1B89 /* oqlTabBarCon.swift */; };
+		D6173E601D41E280000E1B89 /* oqlNomalEye.png in Resources */ = {isa = PBXBuildFile; fileRef = D6173E5F1D41E280000E1B89 /* oqlNomalEye.png */; };
+		D6173E621D41E289000E1B89 /* oqlWinkEye.png in Resources */ = {isa = PBXBuildFile; fileRef = D6173E611D41E289000E1B89 /* oqlWinkEye.png */; };
+		D63107101E23BC4F00DEEAE0 /* GUI_face2.png in Resources */ = {isa = PBXBuildFile; fileRef = D631070F1E23BC4F00DEEAE0 /* GUI_face2.png */; };
+		D65212E31E22538C00E58147 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D65212E21E22538C00E58147 /* GoogleService-Info.plist */; };
+		D6A46E691D3F14D200E90777 /* SEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A46E681D3F14D200E90777 /* SEManager.swift */; };
+		D6A46E6D1D409A6800E90777 /* wordBox.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A46E6C1D409A6800E90777 /* wordBox.png */; };
+		D6BBFA611E2D60B300BD072C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBFA601E2D60B300BD072C /* FourthViewController.swift */; };
+		D6C76EFB1D2FF62300AB1D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C76EFA1D2FF62300AB1D1B /* AppDelegate.swift */; };
+		D6C76EFD1D2FF62300AB1D1B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C76EFC1D2FF62300AB1D1B /* FirstViewController.swift */; };
+		D6C76EFF1D2FF62300AB1D1B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C76EFE1D2FF62300AB1D1B /* SecondViewController.swift */; };
+		D6C76F021D2FF62300AB1D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F001D2FF62300AB1D1B /* Main.storyboard */; };
+		D6C76F041D2FF62300AB1D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F031D2FF62300AB1D1B /* Assets.xcassets */; };
+		D6C76F071D2FF62300AB1D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F051D2FF62300AB1D1B /* LaunchScreen.storyboard */; };
+		D6C76F0F1D2FF67D00AB1D1B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C76F0E1D2FF67D00AB1D1B /* ThirdViewController.swift */; };
+		D6C76F2C1D307CA400AB1D1B /* DL_UL.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F271D307CA400AB1D1B /* DL_UL.png */; };
+		D6C76F2D1D307CA400AB1D1B /* Edit Text.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F281D307CA400AB1D1B /* Edit Text.png */; };
+		D6C76F2E1D307CA400AB1D1B /* Music Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F291D307CA400AB1D1B /* Music Folder.png */; };
+		D6C76F2F1D307CA400AB1D1B /* oqlMono.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F2A1D307CA400AB1D1B /* oqlMono.png */; };
+		D6C76F301D307CA400AB1D1B /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F2B1D307CA400AB1D1B /* record.png */; };
+		D6C76F3E1D3087C100AB1D1B /* mainIcon120.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F391D3087C100AB1D1B /* mainIcon120.png */; };
+		D6C76F3F1D3087C100AB1D1B /* mainIcon180.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F3A1D3087C100AB1D1B /* mainIcon180.png */; };
+		D6C76F401D3087C100AB1D1B /* mainIcon58.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F3B1D3087C100AB1D1B /* mainIcon58.png */; };
+		D6C76F411D3087C100AB1D1B /* mainIcon80.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F3C1D3087C100AB1D1B /* mainIcon80.png */; };
+		D6C76F421D3087C100AB1D1B /* mainIcon87.png in Resources */ = {isa = PBXBuildFile; fileRef = D6C76F3D1D3087C100AB1D1B /* mainIcon87.png */; };
+		D6ECFC061D32153E00953B4E /* GUI_beak.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ECFBFF1D32153E00953B4E /* GUI_beak.png */; };
+		D6ECFC071D32153E00953B4E /* GUI_Body.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ECFC001D32153E00953B4E /* GUI_Body.png */; };
+		D6ECFC081D32153E00953B4E /* GUI_face.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ECFC011D32153E00953B4E /* GUI_face.png */; };
+		D6ECFC091D32153E00953B4E /* GUI_head.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ECFC021D32153E00953B4E /* GUI_head.png */; };
+		D6ECFC0A1D32153E00953B4E /* GUI_legs.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ECFC031D32153E00953B4E /* GUI_legs.png */; };
+		D6ECFC0B1D32153E00953B4E /* GUI_wings.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ECFC041D32153E00953B4E /* GUI_wings.png */; };
+		D6ECFC0C1D32153E00953B4E /* oqlGUI.png in Resources */ = {isa = PBXBuildFile; fileRef = D6ECFC051D32153E00953B4E /* oqlGUI.png */; };
+		D6F05EE81D32220900444748 /* GUI_legsDown.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F05EE71D32220900444748 /* GUI_legsDown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		156654B5194FD3B204FCCA67 /* Pods_oqlApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oqlApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73344204C15CBC80659F4033 /* Pods-oqlApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oqlApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oqlApp/Pods-oqlApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C4FA9C010C52D19841267D8B /* Pods-oqlApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oqlApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-oqlApp/Pods-oqlApp.release.xcconfig"; sourceTree = "<group>"; };
+		D6173E591D41B9A5000E1B89 /* oqlTabBarCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oqlTabBarCon.swift; sourceTree = "<group>"; };
+		D6173E5F1D41E280000E1B89 /* oqlNomalEye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oqlNomalEye.png; sourceTree = "<group>"; };
+		D6173E611D41E289000E1B89 /* oqlWinkEye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oqlWinkEye.png; sourceTree = "<group>"; };
+		D631070F1E23BC4F00DEEAE0 /* GUI_face2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_face2.png; sourceTree = "<group>"; };
+		D65212E21E22538C00E58147 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6A46E681D3F14D200E90777 /* SEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SEManager.swift; path = ../practice/SEManager.swift; sourceTree = "<group>"; };
+		D6A46E6C1D409A6800E90777 /* wordBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wordBox.png; sourceTree = "<group>"; };
+		D6BBFA601E2D60B300BD072C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		D6C76EF71D2FF62300AB1D1B /* oqlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oqlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C76EFA1D2FF62300AB1D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6C76EFC1D2FF62300AB1D1B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D6C76EFE1D2FF62300AB1D1B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D6C76F011D2FF62300AB1D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6C76F031D2FF62300AB1D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6C76F061D2FF62300AB1D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6C76F081D2FF62300AB1D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C76F0E1D2FF67D00AB1D1B /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		D6C76F271D307CA400AB1D1B /* DL_UL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DL_UL.png; sourceTree = "<group>"; };
+		D6C76F281D307CA400AB1D1B /* Edit Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit Text.png"; sourceTree = "<group>"; };
+		D6C76F291D307CA400AB1D1B /* Music Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Music Folder.png"; sourceTree = "<group>"; };
+		D6C76F2A1D307CA400AB1D1B /* oqlMono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oqlMono.png; sourceTree = "<group>"; };
+		D6C76F2B1D307CA400AB1D1B /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		D6C76F391D3087C100AB1D1B /* mainIcon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon120.png; sourceTree = "<group>"; };
+		D6C76F3A1D3087C100AB1D1B /* mainIcon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon180.png; sourceTree = "<group>"; };
+		D6C76F3B1D3087C100AB1D1B /* mainIcon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon58.png; sourceTree = "<group>"; };
+		D6C76F3C1D3087C100AB1D1B /* mainIcon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon80.png; sourceTree = "<group>"; };
+		D6C76F3D1D3087C100AB1D1B /* mainIcon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainIcon87.png; sourceTree = "<group>"; };
+		D6ECFBFF1D32153E00953B4E /* GUI_beak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_beak.png; sourceTree = "<group>"; };
+		D6ECFC001D32153E00953B4E /* GUI_Body.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_Body.png; sourceTree = "<group>"; };
+		D6ECFC011D32153E00953B4E /* GUI_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_face.png; sourceTree = "<group>"; };
+		D6ECFC021D32153E00953B4E /* GUI_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_head.png; sourceTree = "<group>"; };
+		D6ECFC031D32153E00953B4E /* GUI_legs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_legs.png; sourceTree = "<group>"; };
+		D6ECFC041D32153E00953B4E /* GUI_wings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_wings.png; sourceTree = "<group>"; };
+		D6ECFC051D32153E00953B4E /* oqlGUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oqlGUI.png; sourceTree = "<group>"; };
+		D6F05EE71D32220900444748 /* GUI_legsDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUI_legsDown.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C76EF41D2FF62300AB1D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127374CAB8D63E28E8B3C172 /* Pods_oqlApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70482E6A21F691B21EEFC091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				156654B5194FD3B204FCCA67 /* Pods_oqlApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FD987E1A14B2BF123716A53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73344204C15CBC80659F4033 /* Pods-oqlApp.debug.xcconfig */,
+				C4FA9C010C52D19841267D8B /* Pods-oqlApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6C76EEE1D2FF62300AB1D1B = {
+			isa = PBXGroup;
+			children = (
+				D6A46E681D3F14D200E90777 /* SEManager.swift */,
+				D6C76EF91D2FF62300AB1D1B /* oqlApp */,
+				D6C76EF81D2FF62300AB1D1B /* Products */,
+				9FD987E1A14B2BF123716A53 /* Pods */,
+				70482E6A21F691B21EEFC091 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C76EF81D2FF62300AB1D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C76EF71D2FF62300AB1D1B /* oqlApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6C76EF91D2FF62300AB1D1B /* oqlApp */ = {
+			isa = PBXGroup;
+			children = (
+				D6C76EFA1D2FF62300AB1D1B /* AppDelegate.swift */,
+				D6173E591D41B9A5000E1B89 /* oqlTabBarCon.swift */,
+				D6C76EFC1D2FF62300AB1D1B /* FirstViewController.swift */,
+				D6C76EFE1D2FF62300AB1D1B /* SecondViewController.swift */,
+				D6C76F0E1D2FF67D00AB1D1B /* ThirdViewController.swift */,
+				D6BBFA601E2D60B300BD072C /* FourthViewController.swift */,
+				D6C76F001D2FF62300AB1D1B /* Main.storyboard */,
+				D65212E21E22538C00E58147 /* GoogleService-Info.plist */,
+				D6C76F031D2FF62300AB1D1B /* Assets.xcassets */,
+				D6ECFBFE1D32153E00953B4E /* oql_GUI_Parts */,
+				D6C76F381D3087C100AB1D1B /* main icon */,
+				D6C76F261D307CA400AB1D1B /* icon_30x30 */,
+				D6C76F051D2FF62300AB1D1B /* LaunchScreen.storyboard */,
+				D6C76F081D2FF62300AB1D1B /* Info.plist */,
+			);
+			path = oqlApp;
+			sourceTree = "<group>";
+		};
+		D6C76F261D307CA400AB1D1B /* icon_30x30 */ = {
+			isa = PBXGroup;
+			children = (
+				D6C76F271D307CA400AB1D1B /* DL_UL.png */,
+				D6C76F281D307CA400AB1D1B /* Edit Text.png */,
+				D6C76F291D307CA400AB1D1B /* Music Folder.png */,
+				D6C76F2A1D307CA400AB1D1B /* oqlMono.png */,
+				D6C76F2B1D307CA400AB1D1B /* record.png */,
+			);
+			path = icon_30x30;
+			sourceTree = "<group>";
+		};
+		D6C76F381D3087C100AB1D1B /* main icon */ = {
+			isa = PBXGroup;
+			children = (
+				D6C76F391D3087C100AB1D1B /* mainIcon120.png */,
+				D6C76F3A1D3087C100AB1D1B /* mainIcon180.png */,
+				D6C76F3B1D3087C100AB1D1B /* mainIcon58.png */,
+				D6C76F3C1D3087C100AB1D1B /* mainIcon80.png */,
+				D6C76F3D1D3087C100AB1D1B /* mainIcon87.png */,
+			);
+			path = "main icon";
+			sourceTree = "<group>";
+		};
+		D6ECFBFE1D32153E00953B4E /* oql_GUI_Parts */ = {
+			isa = PBXGroup;
+			children = (
+				D6173E5F1D41E280000E1B89 /* oqlNomalEye.png */,
+				D6173E611D41E289000E1B89 /* oqlWinkEye.png */,
+				D6ECFBFF1D32153E00953B4E /* GUI_beak.png */,
+				D6ECFC001D32153E00953B4E /* GUI_Body.png */,
+				D6ECFC011D32153E00953B4E /* GUI_face.png */,
+				D631070F1E23BC4F00DEEAE0 /* GUI_face2.png */,
+				D6ECFC021D32153E00953B4E /* GUI_head.png */,
+				D6F05EE71D32220900444748 /* GUI_legsDown.png */,
+				D6ECFC031D32153E00953B4E /* GUI_legs.png */,
+				D6A46E6C1D409A6800E90777 /* wordBox.png */,
+				D6ECFC041D32153E00953B4E /* GUI_wings.png */,
+				D6ECFC051D32153E00953B4E /* oqlGUI.png */,
+			);
+			path = oql_GUI_Parts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C76EF61D2FF62300AB1D1B /* oqlApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C76F0B1D2FF62300AB1D1B /* Build configuration list for PBXNativeTarget "oqlApp" */;
+			buildPhases = (
+				40A0F5FD78C6DB3E2DAD1EDC /* [CP] Check Pods Manifest.lock */,
+				D6C76EF31D2FF62300AB1D1B /* Sources */,
+				D6C76EF41D2FF62300AB1D1B /* Frameworks */,
+				D6C76EF51D2FF62300AB1D1B /* Resources */,
+				395B1EA24E2B32D3DA224572 /* [CP] Embed Pods Frameworks */,
+				D1006E23D4FFC1F6BBF76D74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oqlApp;
+			productName = oqlApp;
+			productReference = D6C76EF71D2FF62300AB1D1B /* oqlApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C76EEF1D2FF62300AB1D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yukingdom;
+				TargetAttributes = {
+					D6C76EF61D2FF62300AB1D1B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F5D6U2GQ7R;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = D6C76EF21D2FF62300AB1D1B /* Build configuration list for PBXProject "oqlApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C76EEE1D2FF62300AB1D1B;
+			productRefGroup = D6C76EF81D2FF62300AB1D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C76EF61D2FF62300AB1D1B /* oqlApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C76EF51D2FF62300AB1D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECFC071D32153E00953B4E /* GUI_Body.png in Resources */,
+				D6173E621D41E289000E1B89 /* oqlWinkEye.png in Resources */,
+				D65212E31E22538C00E58147 /* GoogleService-Info.plist in Resources */,
+				D6F05EE81D32220900444748 /* GUI_legsDown.png in Resources */,
+				D6ECFC061D32153E00953B4E /* GUI_beak.png in Resources */,
+				D63107101E23BC4F00DEEAE0 /* GUI_face2.png in Resources */,
+				D6ECFC081D32153E00953B4E /* GUI_face.png in Resources */,
+				D6C76F421D3087C100AB1D1B /* mainIcon87.png in Resources */,
+				D6173E601D41E280000E1B89 /* oqlNomalEye.png in Resources */,
+				D6A46E6D1D409A6800E90777 /* wordBox.png in Resources */,
+				D6ECFC0A1D32153E00953B4E /* GUI_legs.png in Resources */,
+				D6C76F2D1D307CA400AB1D1B /* Edit Text.png in Resources */,
+				D6C76F2F1D307CA400AB1D1B /* oqlMono.png in Resources */,
+				D6C76F2C1D307CA400AB1D1B /* DL_UL.png in Resources */,
+				D6C76F3E1D3087C100AB1D1B /* mainIcon120.png in Resources */,
+				D6C76F071D2FF62300AB1D1B /* LaunchScreen.storyboard in Resources */,
+				D6C76F301D307CA400AB1D1B /* record.png in Resources */,
+				D6C76F041D2FF62300AB1D1B /* Assets.xcassets in Resources */,
+				D6ECFC0B1D32153E00953B4E /* GUI_wings.png in Resources */,
+				D6C76F411D3087C100AB1D1B /* mainIcon80.png in Resources */,
+				D6ECFC0C1D32153E00953B4E /* oqlGUI.png in Resources */,
+				D6C76F401D3087C100AB1D1B /* mainIcon58.png in Resources */,
+				D6C76F2E1D307CA400AB1D1B /* Music Folder.png in Resources */,
+				D6C76F021D2FF62300AB1D1B /* Main.storyboard in Resources */,
+				D6ECFC091D32153E00953B4E /* GUI_head.png in Resources */,
+				D6C76F3F1D3087C100AB1D1B /* mainIcon180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		395B1EA24E2B32D3DA224572 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oqlApp/Pods-oqlApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A0F5FD78C6DB3E2DAD1EDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1006E23D4FFC1F6BBF76D74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oqlApp/Pods-oqlApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C76EF31D2FF62300AB1D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6C76EFF1D2FF62300AB1D1B /* SecondViewController.swift in Sources */,
+				D6BBFA611E2D60B300BD072C /* FourthViewController.swift in Sources */,
+				D6A46E691D3F14D200E90777 /* SEManager.swift in Sources */,
+				D6C76EFB1D2FF62300AB1D1B /* AppDelegate.swift in Sources */,
+				D6C76F0F1D2FF67D00AB1D1B /* ThirdViewController.swift in Sources */,
+				D6C76EFD1D2FF62300AB1D1B /* FirstViewController.swift in Sources */,
+				D6173E5A1D41B9A5000E1B89 /* oqlTabBarCon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D6C76F001D2FF62300AB1D1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C76F011D2FF62300AB1D1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6C76F051D2FF62300AB1D1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6C76F061D2FF62300AB1D1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6C76F091D2FF62300AB1D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6C76F0A1D2FF62300AB1D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C76F0C1D2FF62300AB1D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73344204C15CBC80659F4033 /* Pods-oqlApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = oqlApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oql.oqlApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D6C76F0D1D2FF62300AB1D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FA9C010C52D19841267D8B /* Pods-oqlApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = oqlApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.oql.oqlApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C76EF21D2FF62300AB1D1B /* Build configuration list for PBXProject "oqlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C76F091D2FF62300AB1D1B /* Debug */,
+				D6C76F0A1D2FF62300AB1D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C76F0B1D2FF62300AB1D1B /* Build configuration list for PBXNativeTarget "oqlApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C76F0C1D2FF62300AB1D1B /* Debug */,
+				D6C76F0D1D2FF62300AB1D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C76EEF1D2FF62300AB1D1B /* Project object */;
+}
